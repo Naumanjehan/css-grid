@@ -124,7 +124,7 @@ grid-row-end: 3;
   } */
 
   /* align Content (center)(space enenly)(space between)(space arround)(start)(end) */
-  .grid-container {
+  /* .grid-container {
     display:grid;
     grid-template-columns: auto auto auto;
     height: 400px;
@@ -140,4 +140,69 @@ grid-row-end: 3;
     padding: 30px;
     font-size: 30px;
     text-align: center;
+  } */
+
+  /* GRID ITEM */
+  /* grid column and row property(grid-column:1/5)(grid-column-start)(grid-column-end)( grid-column: 2/span 3)() */
+  /* .grid-container {
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    gap: 20px;
   }
+  .grid-container >div
+  {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .item1
+{
+grid-row: 1/ span 3;
+} */
+
+/* grid area property */
+/* .grid-container {
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    gap: 20px;
+  }
+  .grid-container >div
+  {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .item8
+{
+grid-area:2/1/ span2/span3;
+} */
+
+/*grid area property with naming grid items  */
+.grid-container {
+    display:grid;
+    background-color: #2196F3;
+    grid-template-areas: 'spacemyown spacemyown spacemyown spacemyown spacemyown';
+    padding: 10px;
+    gap: 20px;
+    grid-template-columns: AUTO AUTO auto;
+  }
+  .grid-container >div
+  {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .item1
+{
+grid-area: spacemyown;
+}
