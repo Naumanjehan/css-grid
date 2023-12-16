@@ -68,3 +68,76 @@
 grid-row-start: 1;
 grid-row-end: 3;    
 } */
+
+/* GRID CONTAINER */
+/* grid tamplets columns (auto auto auto auto)or(auto 80px auto 70px) */
+/* .grid-container {
+    display:grid;
+    grid-template-columns: auto 80px auto 70px;
+    background-color: #2196F3;
+    padding: 10px;
+    gap: 10px;
+  }
+  .grid-container >div
+  {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+  } */
+
+  /* grid tamplets Rows (auto auto auto )and rows(200px 100px 150px) */
+/* .grid-container {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px 100px 150px;
+    background-color: #2196F3;
+    padding: 10px;
+    gap: 10px;
+  }
+  .grid-container >div
+  {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+  } */
+
+  /* Justify Content (center)(space enenly)(space between)(space arround)(start)(end) */
+  /* .grid-container {
+    display:grid;
+    grid-template-columns: 50px 50px 50px;
+    justify-content: end;
+    background-color: #2196F3;
+    padding: 10px;
+    gap: 20px;
+  }
+  .grid-container >div
+  {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+  } */
+
+  /* align Content (center)(space enenly)(space between)(space arround)(start)(end) */
+  .grid-container {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    height: 400px;
+    align-content: center;
+    background-color: #2196F3;
+    padding: 10px;
+    gap: 20px;
+  }
+  .grid-container >div
+  {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+  }
